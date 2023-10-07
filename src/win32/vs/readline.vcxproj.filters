@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="readline">
+      <UniqueIdentifier>{ca26fbbb-4afd-4350-a3ae-b7520fbd9a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="readline\support">
+      <UniqueIdentifier>{91bb2374-6b5f-4513-8064-aa7f9ec2a1eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\res\gnu.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\res\readline-dll-res.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\res\readline-dllversion.c">
+      <Filter>res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\readline.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\funmap.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\keymaps.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vi_mode.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\parens.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rltty.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\complete.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bind.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\isearch.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\display.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\signals.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\emacs_keymap.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vi_keymap.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\util.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kill.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\undo.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\macro.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\input.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\callback.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\terminal.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xmalloc.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\history.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histsearch.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histexpand.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\histfile.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nls.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\search.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shell.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\savestring.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tilde.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\text.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\misc.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\compat.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbutil.c">
+      <Filter>readline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\support\wcwidth.c">
+      <Filter>readline\support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\readline.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rldefs.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\chardefs.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\keymaps.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\history.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\histlib.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\posixdir.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\posixjmp.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\posixstat.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tilde.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rlconf.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rltty.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ansi_stdlib.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tcap.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rlstdc.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xmalloc.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rlprivate.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rlshell.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rltypedefs.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rlmbutil.h">
+      <Filter>readline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\config.h" />
+  </ItemGroup>
+</Project>
